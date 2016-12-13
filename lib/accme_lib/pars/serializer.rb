@@ -478,7 +478,7 @@ module AccmeLib
       def template
         if @reporting_year == '2014'
           'Template C'
-        elsif @reporting_year == '2015'
+        elsif @reporting_year >= '2015'
           'Template D'
         end
       end
